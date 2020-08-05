@@ -1,0 +1,210 @@
+body
+{
+	background-color: blanchedalmond;
+	font-family: "Trebuchet MS";
+}
+
+nav
+{
+	display: flex;
+	justify-content: space-around;
+	border: 2px solid black;
+	border-radius: 15px;
+	position: relative;
+	padding: 15px;
+	font-size: 1.5em;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+p
+{
+	text-align: justify;
+	width: 75%;
+	font-size: 1em;
+}
+figcaption
+{
+	text-align: center;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+strong
+{
+	font-weight: bold;
+}
+mark
+{
+	background-color: blanchedalmond;
+	text-decoration: underline;
+}
+table
+{
+	width: 100%;
+}
+td
+{
+	text-align: center;
+}
+ul
+{
+	text-align: justify;
+	padding-left: 200px;
+}
+li
+{
+	list-style-type: circle;
+}
+#photo
+{
+	float: none;
+	margin-bottom: 30px;
+	border-bottom: 2px solid black; 
+	border-radius: 5px;
+}
+#head
+{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+}
+#moimeme
+{
+	text-align: left;
+	font-size: 1.2em;
+	margin-left: 10px;
+	margin-right : 10px;
+}
+#wiki
+{
+	border: 1px solid grey;
+	border-radius: 5px;
+	background-color: rgba(255,250,240,0.5);
+	box-shadow: 2px 2px 0px darkgrey;
+	width: 20%;
+}
+#pres
+{
+	padding-left: 30px;
+	width: 90%;
+}
+#competence
+{
+	display: flex;
+	justify-content: space-between;
+}
+#langue
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+#codage
+{
+	display: flex;
+	justify-content: space-around;
+}
+.histoire
+{
+	text-align: justify;
+	width: 90%;
+	padding-left: 30px;
+}
+.partie
+{
+	border-bottom: 1px solid black;
+}
+#xp
+{
+	display: flex;
+}
+.web
+{
+	width: 33%;
+	padding-left: 10px;
+	border-right: 1px solid black;
+}
+.voyage
+{
+	width: 33%;
+	padding-left: 10px;
+	border-right: 1px solid black;
+}
+.openclass
+{
+	width: 33%;
+	padding-left: 10px;
+}
+.justify
+{
+	text-align: center;
+	font-style: italic;
+}
+#wordpress
+{
+	text-decoration: underline;
+}
+.text
+{
+	width: 90%;
+	padding-left: 3%;
+}
+.png
+{
+	padding-left: 35%;
+}
+.pngbis
+{
+	padding-left: 22%;
+}
+#echec
+{
+	display: flex;
+	justify-content: space-around;
+}
+#banner
+{
+	width: 50%; height: 500px;
+	background-image: url('article.jpg');
+	border-right: 5px solid blanchedalmond;
+	position: relative;
+
+}
+#bannerbis
+{
+	width: 50%; height: 500px;
+	background-image: url('articlebis.jpg');
+	border-left: 5px solid blanchedalmond;
+	position: relative;
+}
+#article
+{
+	background-color: rgba(100,100,100,0.8);
+	width: 99.5%; height: 100px;
+	position: absolute;
+	bottom: 0;
+	color: floralwhite;
+	padding-left: 4px;
+	font-size: 1.2em;
+}
+#articlebis
+{
+	background-color: rgba(100,100,100,0.7);
+	width: 99.5%; height: 100px;
+	position: absolute;
+	bottom: 0;
+	color: floralwhite;
+	padding-left: 4px;
+	font-size: 1.2em;
+}
+#choco
+{
+	width: 90%;
+	font-size: 1.5em;
+	width: 70%;
+}
