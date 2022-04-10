@@ -171,7 +171,7 @@ li
 #banner
 {
 	width: 50%; height: 500px;
-	background-image: url('article.jpg');
+	background-image: url('https://i.postimg.cc/crxrkCVH/article.jpg');
 	border-right: 5px solid blanchedalmond;
 	position: relative;
 
@@ -179,24 +179,15 @@ li
 #bannerbis
 {
 	width: 50%; height: 500px;
-	background-image: url('articlebis.jpg');
+	background-image: url('https://i.postimg.cc/njxHswxz/articlebis.jpg');
 	border-left: 5px solid blanchedalmond;
 	position: relative;
 }
-#article
+.article
 {
-	background-color: rgba(100,100,100,0.8);
-	width: 99.5%; height: 100px;
-	position: absolute;
-	bottom: 0;
-	color: floralwhite;
-	padding-left: 4px;
-	font-size: 1.2em;
-}
-#articlebis
-{
-	background-color: rgba(100,100,100,0.7);
-	width: 99.5%; height: 100px;
+	background-color: rgba(100,100,100,0.9);
+  margin: 0;
+	width: 99.5%;
 	position: absolute;
 	bottom: 0;
 	color: floralwhite;
