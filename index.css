@@ -61,38 +61,36 @@ li {
     list-style-type: none;
 }
 
-#photo {
-    float: none;
-    margin-bottom: 30px;
-    border-bottom: 2px solid black;
-    border-radius: 5px;
-}
-
 #head {
     display: flex;
-    align-items: center;
-    flex-direction: row;
+    align-items: flex-start;
     justify-content: center;
-}
-
-#moimeme {
-    text-align: left;
-    font-size: 1.2em;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 #wiki {
     border: 1px solid grey;
-    border-radius: 5px;
+    border-radius: 5px 5px;
     background-color: rgba(255, 250, 240, 0.5);
     box-shadow: 2px 2px 0px darkgrey;
-    width: 40%;
+    width: 20%;
+    max-width: 200px;
+    margin: 20px 0;
+}
+
+#wiki img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+#wiki p {
+    text-align: left;
+    font-size: 1.2em;
+    margin: 5%;
 }
 
 #pres {
-    padding-left: 30px;
-    width: 90%;
+    width: 70%;
+    padding: 25px 25px 0 0;
 }
 
 #competence {
@@ -117,29 +115,19 @@ li {
     padding-left: 30px;
 }
 
-.partie {
-    border-bottom: 1px solid black;
-}
-
 #xp {
     display: flex;
 }
 
-.web {
+.xp-div {
     width: 33%;
-    padding-left: 10px;
-    border-right: 1px solid black;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-.voyage {
-    width: 33%;
-    padding-left: 10px;
+.xp-div.middle {
     border-right: 1px solid black;
-}
-
-.openclass {
-    width: 33%;
-    padding-left: 10px;
+    border-left: 1px solid black;
 }
 
 .justify {
@@ -156,12 +144,8 @@ li {
     padding-left: 3%;
 }
 
-.png {
-    padding-left: 35%;
-}
-
-.pngbis {
-    padding-left: 22%;
+#frise {
+    width: 100%;
 }
 
 #echec {
@@ -201,4 +185,38 @@ li {
     width: 90%;
     font-size: 1.5em;
     width: 70%;
+}
+
+.presDesc li {
+    list-style: circle;
+    text-align: justify;
+    margin: 10px;
+}
+
+.presDesc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a img {
+    margin: 10px;
+    width: 50px;
+}
+
+#scroller {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    z-index: 99999999;
+    background-color: #ffebcd;
 }
